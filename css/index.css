@@ -1,10 +1,11 @@
+/* pengaturan navbar */
 .navbar{
     overflow: hidden;
 }
 .navbar a {
     float: right;
     padding: 12px;
-    color: #333A73;
+    color: #070F51;
     text-decoration: none;
     font-size: 20px;
     font-family: "Kanit", sans-serif;
@@ -12,13 +13,16 @@
     font-style: normal;
   }
 
+/* atur navigasi kiri */
 .navbar a.split {
     font-family: "Inria Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 27px;
     float: left;
     background-color: #FBA834;
     color: black;
+    position: fixed;
   }
 
 body {
@@ -39,6 +43,27 @@ h2{
     padding-top: 155px;
     padding-right: 850px;
   }
+  .kontak{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-orientation: sideways-left;
+    writing-mode: vertical-rl;
+    margin-left: auto;
+    margin-bottom: ;
+    }
+
+#gallery{
+  margin-top: 100px;
+  padding-top: 254px;
+  padding-left: 50px;
+}
+  .gallery {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
 
 
   
