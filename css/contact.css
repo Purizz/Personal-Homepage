@@ -1,0 +1,27 @@
+body {
+    background-image: url(image/zen.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1280px 844px;
+    background-position: top right;
+}
+
+#contact{
+    padding-left: 600px;
+}
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #070F51;
+    font-size: 45px;
+    padding-top: 100px;
+}
+.link{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+a{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
