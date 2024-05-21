@@ -1,3 +1,5 @@
+<?php include 'connection.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,22 +50,16 @@
             <h2>Berita Ter Tidak Kini</h2>
             <div class="row">
                 <div class="column" style="background-color:#FBA834;">
-                    <a href="https://www.oneesports.id/genshin-impact/panduan-farm-material-arlecchino" class="sub" style=" color:antiquewhite;"><h3> Panduan farm material Arlecchino Genshin Impact</h3></a>
-                    <a>Fatui Harbinger yang berapi-api, Arlecchino, akhirnya menjadi karakter yang dapat dimainkan</a>
-                    <a>di Genshin Impact. Jika kalian membutuhkan material Arlecchino</a>
-                    <a>untuk menaikkan level House of the Hearth’s Father, kami memiliki semua yang dibutuhkan di sini.</a>
+                    <a href="<?php echo $url1 ?>" class="sub" style=" color:antiquewhite;"><h3><?php echo $title1 ?></h3></a>
+                    <a><?php echo $desc1 ?></a>
                 </div>
                 <div class="column" style="background-color:#333A73;">
-                    <a href="https://gamebrott.com/drip-marketing-firefly-honkai-star-rail/" class="sub" style=" color: antiquewhite;"><h3>Lama Dinanti, Drip Marketing Firefly Honkai Star Rail Akhirnya Diluncurkan</h3></a>
-                    <a>Sosok cantik ini sudah menjadi teman main Trailblazer selama menikmati perjalanan di Penacony.</a>
-                    <a>Dalam waktu yang singkat, Trailblazer sudah berhasil membentuk bonding yang erat dengan Firefly.</a>
-                    <a>Maka, tak heran ketika “kematian“nya kemarin cukup meninggalkan bekas luka</a>
+                    <a href="<?php echo $url2 ?>" class="sub" style=" color: antiquewhite;"><h3><?php echo $title2 ?></h3></a>
+                    <a><?php echo $desc2 ?></a>
                 </div>
                 <div class="column" style="background-color:#387ADF;">
-                    <a href="https://www.idntimes.com/tech/games/jihan-khoerunnisa/kelebihan-dan-kekurangan-clove-agent-baru-di-valorant-c1c2" class="sub" style=" color: antiquewhite;"><h3>5 Kelebihan dan Kekurangan Clove, Agent Baru di VALORANT</h3></a>
-                    <a>Sejak kemunculannya pada 26 Maret lalu, Clove, Agent teranyar di VALORANT langsung mencuri hati banyak player.</a>
-                    <a>Pasalnya, Agent satu ini memiliki ability yang sangat menguntungkan.</a>
-                    <a>Gak heran, Clove selalu jadi rebutan untuk di-pick.</a>
+                    <a href="<?php echo $url3 ?>" class="sub" style=" color: antiquewhite;"><h3><?php echo $title3 ?></h3></a>
+                    <a><?php echo $desc3 ?></a>
                 </div>
             </div>
           
